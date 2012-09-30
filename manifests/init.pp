@@ -2,7 +2,7 @@ class headphones( $source = 'true' ) {
     
     $url = "https://github.com/rembo10/headphones.git"
     
-    include headphones::config
+    #include headphones::config
     
     user { 'headphones':
         allowdupe => false,
