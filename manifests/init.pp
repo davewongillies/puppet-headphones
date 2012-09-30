@@ -1,6 +1,7 @@
 class headphones( $source = 'true' ) {
     
     $url = "https://github.com/rembo10/headphones.git"
+    $headphones_port = extlookup("headphones_port")
     
     include headphones::config
     
