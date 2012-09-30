@@ -29,7 +29,7 @@ PYTHON_LOCATION="/usr/local/bin/python2.7"
 # Daemon info
 DAEMON_USER="headphones"
 DAEMON_LOCATION="/usr/local/headphones/Headphones.py"
-DAEMON_ARGS="-q"
+DAEMON_ARGS="--data_dir /usr/local/headphones-data --daemon --nolaunch"
 DAEMON_URL="http://<%= ipaddress %>/headphones"
 RETVAL=0
 
