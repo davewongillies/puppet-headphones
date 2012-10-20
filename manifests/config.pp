@@ -2,6 +2,8 @@ class headphones::config {
 
     $headphones_data = "/usr/local/headphones-data"
     $headphones_port = extlookup("headphones_port")
+    $nzbmatrix_username = extlookup("nzbmatrix_username")
+    $nzbmatrix_apikey = extlookup("nzbmatrix_apikey")
     $sabnzbd_host = extlookup("sabnzbd_host")
     $sabnzbd_root = extlookup("sabnzbd_root")
     $sabnzbd_apikey = extlookup("sabnzbd_apikey")
