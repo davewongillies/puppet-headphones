@@ -2,6 +2,9 @@ class headphones::config {
 
     $headphones_data = "/usr/local/headphones-data"
     $headphones_port = extlookup("headphones_port")
+    $sabnzbd_host = extlookup("sabnzbd_host")
+    $sabnzbd_root = extlookup("sabnzbd_root")
+    $sabnzbd_apikey = extlookup("sabnzbd_apikey")
 
     file { "/usr/local/headphones-data":
         ensure => directory,
